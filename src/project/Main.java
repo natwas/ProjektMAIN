@@ -6,9 +6,4 @@ public class Main {
 		PhotoelectricEffect frame = new PhotoelectricEffect(); 
 		frame.setVisible(true);
 	}
-
-	
-	
-	
-	
 }

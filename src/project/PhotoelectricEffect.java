@@ -88,7 +88,7 @@ public class PhotoelectricEffect extends JFrame {
 	BufferedImage image;
 
 	public PhotoelectricEffect() {
-		this.setTitle("Simulation");
+		this.setTitle("Simulattttion");
 		this.setSize(intWidth, intHeight);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   // ramka 
 		this.setVisible(true);
