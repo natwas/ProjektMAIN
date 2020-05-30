@@ -5,13 +5,14 @@ import java.awt.Image;
 
 import javax.swing.ImageIcon;
 
-public class Photon extends Coordinates{
+public class Photon {
 	int intHeight; 
 	int intWidth;
+	int x,y = 0; 
 	private String photon = "foton.png";
 	
-	public Photon(int x, int y) {
-		super(x, y);
+	public Photon() {
+		super();
 	}
 	public void move() {
 		x++;
@@ -29,5 +30,4 @@ public class Photon extends Coordinates{
 		intHeight = intH; 
 		intWidth = intW;
 	}
-
 }
