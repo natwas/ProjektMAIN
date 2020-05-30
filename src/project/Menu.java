@@ -32,8 +32,7 @@ public class Menu extends JPanel {
 	private static final long serialVersionUID = 1L;
 	PhotoelectricEffect effect;
 	Drawpanel drawPanel; 
-	Countings countings; 
-	
+	Countings countings; 	
 	JLabel chooseFrequency; 
 	JMenuBar menuBar;
 	JMenu menu, language;

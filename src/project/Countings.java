@@ -8,8 +8,7 @@ import javax.swing.JTextField;
 public class Countings {
 	
 	PhotoelectricEffect effect; 
-	Menu menu; 
-	
+	Menu menu; 	
 	JTextField text; 
 	
 	static final double exitWorkCes = 3.42;  //[J], 2.14 eV
@@ -27,11 +26,9 @@ public class Countings {
 	
 	void countEnergy() {
 		freq = Menu.frequencyValue; 
-		System.out.println(freq); 
 		photonEnergy = planck*freq; 
 		DecimalFormat df=new DecimalFormat("######.##"); 
 		y= photonEnergy*1000000000*1000;
-		System.out.println(photonEnergy);
 		text = Menu.text1; 
 		text.setText(df.format(y) + "x10^-31 J");		
 	}

@@ -9,7 +9,6 @@ import javax.swing.JFrame;
 public class PhotoelectricEffect extends JFrame {
 	
 	private static final long serialVersionUID = 1L;
-
 	Drawpanel drawPanel;
 	Menu menu; 
 	

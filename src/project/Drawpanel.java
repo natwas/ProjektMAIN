@@ -22,7 +22,6 @@ public class Drawpanel extends JPanel implements ActionListener{
 	int intHeight; 
 	int intWidth;
 	String material; 
-	
 	static PhotoelectricEffect effect; 
 	Photon photon; 
 	
